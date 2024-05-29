@@ -1,0 +1,21 @@
+*{
+    background-color:white;
+    padding: 0%;
+}
+.grid-container{
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows:repeat(3,100px);
+    display:grid;
+    padding:10px;
+    grid-gap:10px;
+    justify-items:center;
+    align-items: center;
+}
+.grid-item{
+    padding:20px;
+    text-align: center;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    border-color: white;
+}
