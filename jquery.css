@@ -1,0 +1,42 @@
+body{
+    padding: 10px;
+    margin: 10px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: #000;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center; 
+    padding-top: 60px;
+}
+button{
+    height: 60px;
+    width: 90px;
+    padding:10px;
+    margin:20px;
+    border: none;
+    font-size: 15px;
+    background-color: aliceblue;
+}
+.modify{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+    text-decoration: double;
+}
+.modify1{
+    font-size: 100px;
+}
+p{
+    text-align: center;
+    justify-content: center;
+}
